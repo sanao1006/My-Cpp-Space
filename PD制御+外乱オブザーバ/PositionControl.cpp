@@ -20,7 +20,7 @@ int main(){
 	double T1(0.0), Tl(0.0), f2(0.0);
 	double dThout(0.0), ddThout(0.0);
 	double ddThref(0.0), error(0.0);
-	// Variable for count
+	// カウント変数
 	int DisplayCount(0);
 		
 	const double K = 50.0;
@@ -43,7 +43,7 @@ int main(){
 	std::cout << "  Acceleration Contorol SIMULATION          " << std::endl;
 	std::cout << "=====================================" << std::endl;
 
-	// Construct the PASF
+	
 	mhDOB D[10];
 	mhFILTERS F[10];
 	/**
