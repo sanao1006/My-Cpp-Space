@@ -1,7 +1,8 @@
-図のようなRC回路における電圧v(t)と電流i(t)の時間応答をファイルへ出力するプログラム
-![秋田犬](https://github.com/sanao1006/My_Cpp-_Space/RC circuit/rc.png)
-初期設定では
-V=50V
-R=10.0kΩ
-C=10.0μF
-と設定していますが自由に変更可能です。計測時間は 0<t<=1です
+## what's this?
+### A program to output the time response of voltage v(t) and current i(t) in an RC circuit as shown in the figure to a file.
+![秋田犬](https://github.com/sanao1006/My_Cpp-_Space/blob/master/RC%20circuit/rc.png)
+The default setting is  
+V=50V  
+R=10.0kΩ  
+C=10.0μF  
+but it can be changed freely. The measurement time is 0<t<=1.
