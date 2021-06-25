@@ -4,13 +4,13 @@
 #include <cmath>
 #include<cstring>
 int main(void){
-  const double dt = 0.00000001;//サンプリングタイム
+  const double dt = 0.00000001;//sampling time
   double t = 0;
   double A=0;
   double B=0;
   double x=0;
   double y=0;
-  double omegac = 100000000;//θ'のグラフの形がcostに近くなるように設定//
+  double omegac = 100000000;
   FILE *file;
   char data[100];    
   strcpy(data,"pseudo_derivative.dat");
@@ -18,7 +18,7 @@ int main(void){
   
   while(t < 0.00001){
     A=x-B;
-    x = 0.0000001 * sin(1000000 * t);//tの関数何でも入力可能
+    x = 0.0000001 * sin(1000000 * t);// as you like
     y = A * omegac;
     B += y * dt;
   
