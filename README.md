@@ -1,1 +1,3 @@
-## This is code for the PD control simulation of a motor
+## This is a C++ library that I made myself.
+- Motor PD control simulation
+Completely for personal use.
