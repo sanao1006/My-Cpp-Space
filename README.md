@@ -1,2 +1,1 @@
-自作プログラムリスト
-自分用
+## This is code for the PD control simulation of a motor
