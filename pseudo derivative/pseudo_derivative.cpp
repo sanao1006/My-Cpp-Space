@@ -13,7 +13,7 @@ int main(void){
   double omegac = 100000000;//θ'のグラフの形がcostに近くなるように設定//
   FILE *file;
   char data[100];    
-  strcpy(data,"gijibibun.dat");
+  strcpy(data,"pseudo_derivative.dat");
   file = fopen(data,"w"); 
   
   while(t < 0.00001){
