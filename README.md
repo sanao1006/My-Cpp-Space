@@ -1,5 +1,4 @@
-## This is a C++ library that I made myself.
-- Motor PD control simulation
+## These are a C++ programs that I made myself.
 - Time response of an RC circuit
 - pseudo derivative  
 
